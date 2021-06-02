@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+}
+
+html{
+    font-size: 100%;
+}
+body{
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    scroll-behavior: smooth;
+    background-color: grey;
+}
+
+header{
+    padding: 1rem;
+    position: relative;
+    background-color: white;
+}
+
+header>.logo>h1{
+    font-family: Shrikhand,"cursive";
+    color: black;
+    margin: 0;
+    text-align: center;
+}
+
+.fa-arrow-left{
+    color: black;
+    font-size: 1.2rem;
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    bottom: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.place{
+    background: #f3f3f3;
+    padding: 1.25rem;
+}
+.place>h3{
+    text-align: center;
+}
+
+.place>h3>.fa-map-marker-alt{
+    margin-right: 1rem;
+}
+
+.info{
+    background: white;
+    text-align: center;
+    padding: 1.25rem;
+}
+
+.info>p{
+    margin: 1.5rem 0;
+}
+
+.info>a{
+    cursor: pointer;
+    font-weight: 500;
+    background-image: linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
+    padding: .75rem 1.5rem;
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 6.25rem;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+}
+
+.listcontainer{
+    display: grid;
+    margin: 0 auto;
+    
+    grid-template-columns: repeat(3, 1fr);
+}
+
