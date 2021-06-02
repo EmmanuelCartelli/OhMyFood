@@ -72,7 +72,19 @@ header>.logo>h1{
 .listcontainer{
     display: grid;
     margin: 0 auto;
-    
     grid-template-columns: repeat(3, 1fr);
+    max-width: 80rem;
 }
 
+.listcontainer>div{
+    display: flex;
+}
+
+.howtouse{
+    background-color: white;
+}
+
+.infoicon{
+    margin-right: 0.75rem;
+    color: #7e7e7e;
+}
