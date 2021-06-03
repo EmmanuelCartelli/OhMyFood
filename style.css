@@ -16,6 +16,7 @@ header{
     padding: 1rem;
     position: relative;
     background-color: white;
+    box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
 }
 
 header>.logo>h1{
@@ -49,9 +50,9 @@ header>.logo>h1{
 }
 
 .info{
-    background: white;
+    background-color: #fafafa;
     text-align: center;
-    padding: 1.25rem;
+    padding: 2rem;
 }
 
 .info>p{
@@ -74,6 +75,7 @@ header>.logo>h1{
     margin: 0 auto;
     grid-template-columns: repeat(3, 1fr);
     max-width: 80rem;
+    column-gap: 2rem;
 }
 
 .listcontainer>div{
@@ -82,9 +84,37 @@ header>.logo>h1{
 
 .howtouse{
     background-color: white;
+    padding: 2rem;
 }
 
 .infoicon{
     margin-right: 0.75rem;
     color: #7e7e7e;
 }
+
+.howtouse>h2{
+    max-width: 80rem;
+    margin: 0 auto 2rem auto;
+}
+
+.listcontainer>div{
+    padding: 1.5rem;
+    background-color: #f6f6f6;
+    border-radius: 1rem;
+    position: relative;
+    box-shadow: .25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
+}
+
+.counter {
+    position: absolute;
+     margin-left: -2.2rem;
+    height: 1.75rem;
+    width: 1.75rem;
+    display: flex;
+    justify-content: center;
+    background-color: #9356dc;
+    align-items: center;
+    border-radius: 100px;
+    color: white;
+}
+
