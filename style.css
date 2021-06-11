@@ -1,12 +1,19 @@
 
 html{
     font-size: 100%;
+    scroll-behavior: smooth;
 }
+
 body{
     margin: 0;
     font-family: Roboto, sans-serif;
     scroll-behavior: smooth;
     background-color: grey;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
 }
 
 header{
@@ -70,6 +77,7 @@ header>.logo>h1{
     color: white;
     border-radius: 6.25rem;
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+    text-decoration: none;
 }
 
 .listcontainer{
