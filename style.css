@@ -158,6 +158,16 @@ p.infotxt{
     border-radius: 1rem 1rem 0 0;
 }
 
+.new{
+    background-color: #99e2d0;
+    color: #1b6150;
+    padding: .5rem;
+    border-radius: .125rem;
+    position: absolute;
+    top: 1rem;
+    right: .75rem;
+}
+
 .descrilike{
     display: flex;
     align-items: center;
@@ -210,4 +220,48 @@ p.infotxt{
     -webkit-text-fill-color: transparent;
     transition-duration: 500ms;
     transform: scale(1.20);
+}
+
+footer{
+    padding: 1.5rem;
+    background-color: #353535;
+}
+
+footer>div{
+    max-width: 80rem;
+    margin: auto;
+}
+
+footer>div>span{
+    font-family: Shrikhand,"cursive";
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+footer>div>a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.footicon{
+    color: white;
+    width: 1.2rem;
+    margin-right: .5rem;
+}
+
+/*Responsive*/
+
+@media (max-width: 882px){
+    
+    .listcontainer{
+        grid-template-columns: auto;
+    }
+
+    .listcontainer>div{
+        margin-bottom: 1rem;
+    }
+
 }
