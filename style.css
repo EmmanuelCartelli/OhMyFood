@@ -262,6 +262,11 @@ footer>div>a{
 
     .listcontainer>div{
         margin-bottom: 1rem;
+        position: static;
+    }
+
+    .maingrid{
+        grid-template-columns: auto;
     }
 
 }
