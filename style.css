@@ -67,7 +67,7 @@ header>.logo>h1{
     margin: 1.5rem 0;
 }
 
-.info>a{
+.info>a, .btn{
     cursor: pointer;
     font-weight: 500;
     background-image: linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
