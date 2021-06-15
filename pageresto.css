@@ -98,6 +98,33 @@ section{
     transition-duration: .5s;
 }
 
+.a1{
+    animation: scale 1s cubic-bezier(0.5, 0.5, 0.4, 1.2) 0ms 1;
+}
+
+.a2{
+    animation: scale 1s cubic-bezier(0.5, 0.5, 0.4, 1.2) 0.2s 1;
+   
+}
+
+.a3{
+    animation: scale 1s cubic-bezier(0.5, 0.5, 0.4, 1.2) 0.4s 1;
+}
+
+@keyframes scale {
+    0%{
+        transform: scale(0);
+    }
+    
+    50%{
+        transform: scale(105%);
+    }
+
+    100%{
+        transform: scale(100%);
+    }
+}
+
 .btn{
     display: block;
     width: fit-content;
