@@ -194,9 +194,6 @@ p.infotxt{
     align-items: center;
     justify-content: center;
     margin-right: 1.5rem;
-    -webkit-transition: background 0.5s linear;
-    transition-duration: 2s;
-    transition: 2s;
 }
 
 .like>i{
@@ -205,13 +202,7 @@ p.infotxt{
     padding: 0.5rem;
 }
 
-.flat{
-    transition-duration: 2s;
-    transition: 2s;
-}
-
 .flatbg{
-<<<<<<< Updated upstream
     
     opacity: 0;
     transition-duration: 500ms;
@@ -219,26 +210,14 @@ p.infotxt{
 
 .flat{
     transition-duration: 500ms;
-=======
-    display: none;
-    -webkit-transition: background 0.5s linear;
-    transition-duration: 2s;
-    transition: 2s;
->>>>>>> Stashed changes
 }
 .like:hover>.flat{
     background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-<<<<<<< Updated upstream
     transition-duration: 500ms;
     transform: scale(1.20);
 
-=======
-    -webkit-transition: background 0.5s linear;
-    transition-duration: 2s;
-    transition: 2s;
->>>>>>> Stashed changes
 }
 
 .like:hover>.flatbg{
@@ -246,7 +225,6 @@ p.infotxt{
     background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-<<<<<<< Updated upstream
     transition-duration: 500ms;
     transform: scale(1.20);
 }
@@ -298,23 +276,4 @@ footer>div>a{
         grid-template-columns: auto;
     }
 
-=======
-    -webkit-transition: background 0.5s linear;
-    transition-duration: 2s;
-    transition: 2s;
-}
-.fa-heart::before{
-    -webkit-transition: background 0.5s linear;
-    transition-duration: 2s;
-    transition: 2s;
-}
-.flat{
-    -webkit-transition: background 0.5s linear;
-    transition-duration: 2s;
-    transition: 2s;
-}
-
-footer{
-    background-color: #353535;
->>>>>>> Stashed changes
 }

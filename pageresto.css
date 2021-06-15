@@ -1,3 +1,5 @@
+
+
 .headimg{
     max-height: 32rem;
     width: 100%;
@@ -18,7 +20,11 @@ section{
     padding: 1rem;
     border-radius: 2rem 2rem 0 0;
 }
-
+.heading{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
 .gridmenu{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -27,6 +33,8 @@ section{
 
 .clmn{
     padding: 0 1rem;
+    overflow: hidden;
+    max-width: 100%;
 }
 
 .menu{
@@ -39,24 +47,53 @@ section{
     cursor: pointer;
     transition-duration: .5s;
     margin: 1rem 0;
+    max-width: 100%;
 }
 .descrimenu{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+}
+
+.descrimenu>div{
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .descrimenu>div>h4{
-    margin: 0;
+    margin: 0 !important;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
 .descrimenu>div>p{
-    margin: 0;
+    margin: 0 !important;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .price{
     display: flex;
     align-items: flex-end;
+    padding-right: 0.3rem;
+} 
+
+.price>p{
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: initial !important;
 }
+
 
 .confirm{
     background-color: #99e2d0;
@@ -130,7 +167,6 @@ section{
     width: fit-content;
     margin: 3rem auto 3rem auto;
 }
-
 
 @media (max-width: 1024px){
     .gridmenu{
