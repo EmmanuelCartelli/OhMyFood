@@ -1,34 +1,28 @@
-
 html{
     font-size: 100%;
     scroll-behavior: smooth;
 }
-
 body{
     margin: 0;
     font-family: Roboto, sans-serif;
     scroll-behavior: smooth;
 }
-
 a:link, a:visited {
     text-decoration: none;
     color: black;
 }
-
 header{
     padding: 1rem;
     position: relative;
     background-color: white;
     box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
 }
-
 header>.logo>h1{
     font-family: Shrikhand,"cursive";
     color: black;
     margin: 0;
     text-align: center;
 }
-
 .fa-arrow-left{
     color: black;
     font-size: 1.2rem;
@@ -39,7 +33,6 @@ header>.logo>h1{
     display: flex;
     align-items: center;
 }
-
 .place{
     background: #f3f3f3;
     padding: 1.25rem;
@@ -48,25 +41,20 @@ header>.logo>h1{
     text-align: center;
     margin: 0;
 }
-
 .place>h3>.fa-map-marker-alt{
     margin-right: 1rem;
 }
-
 .info{
     background-color: #fafafa;
     text-align: center;
     padding: 2rem;
 }
-
 .info>h2{
     margin-top: 0;
 }
-
 .info>p{
     margin: 1.5rem 0;
 }
-
 .info>a, .btn{
     cursor: pointer;
     font-weight: 500;
@@ -78,7 +66,6 @@ header>.logo>h1{
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
     text-decoration: none;
 }
-
 .listcontainer{
     display: grid;
     margin: 0 auto;
@@ -88,26 +75,21 @@ header>.logo>h1{
     position: relative;
     left: 0.75rem;
 }
-
 .listcontainer>div{
     display: flex;
 }
-
 .howtouse{
     background-color: white;
     padding: 2rem;
 }
-
 .infoicon{
     margin-right: 0.75rem;
     color: #7e7e7e;
 }
-
 .howtouse>h2{
     max-width: 80rem;
     margin: 0 auto 2rem auto;
 }
-
 .listcontainer>div{
     padding: 1.5rem;
     background-color: #f6f6f6;
@@ -115,11 +97,9 @@ header>.logo>h1{
     position: relative;
     box-shadow: .25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
 }
-
 p.infotxt{
     margin: 0;
 }
-
 .counter {
     position: absolute;
      margin-left: -2.2rem;
@@ -132,24 +112,20 @@ p.infotxt{
     border-radius: 100px;
     color: white;
 }
-
 .listrest{
     background-color: #f6f6f6;
     padding: 2rem 1rem;
 }
-
 .listrest>section{
     max-width: 80rem;
     margin: auto;
 }
-
 .maingrid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 2rem;
 }
-
 .maingrid>a{
     position: relative;
     border-radius: 1.5rem;
@@ -157,14 +133,12 @@ p.infotxt{
     display: flex;
     flex-direction: column;
 }
-
 .maingrid>a>img{
     width: 100%;
     height: 12rem;
     object-fit: cover;
     border-radius: 1rem 1rem 0 0;
 }
-
 .new{
     background-color: #99e2d0;
     color: #1b6150;
@@ -174,7 +148,6 @@ p.infotxt{
     top: 1rem;
     right: .75rem;
 }
-
 .descrilike{
     display: flex;
     align-items: center;
@@ -183,11 +156,9 @@ p.infotxt{
     border-radius: 0 0 1rem 1rem;
     background-color: white;
 }
-
 .descrilike>div>*{
     margin: 0.450rem;
 }
-
 .like{
     position: relative;
     display: flex;
@@ -195,19 +166,16 @@ p.infotxt{
     justify-content: center;
     margin-right: 1.5rem;
 }
-
 .like>i{
     font-size: 2rem;
     position: absolute;
     padding: 0.5rem;
 }
-
 .flatbg{
     
     opacity: 0;
     transition-duration: 500ms;
 }
-
 .flat{
     transition-duration: 500ms;
 }
@@ -217,9 +185,7 @@ p.infotxt{
     -webkit-text-fill-color: transparent;
     transition-duration: 500ms;
     transform: scale(1.20);
-
 }
-
 .like:hover>.flatbg{
     opacity: 1;
     background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
@@ -228,17 +194,14 @@ p.infotxt{
     transition-duration: 500ms;
     transform: scale(1.20);
 }
-
 footer{
     padding: 1.5rem;
     background-color: #353535;
 }
-
 footer>div{
     max-width: 80rem;
     margin: auto;
 }
-
 footer>div>span{
     font-family: Shrikhand,"cursive";
     color: white;
@@ -246,34 +209,71 @@ footer>div>span{
     margin-bottom: 1rem;
     display: block;
 }
-
 footer>div>a{
     display: block;
     color: white !important;
     text-decoration: none;
 }
-
 .footicon{
     color: white;
     width: 1.2rem;
     margin-right: .5rem;
 }
 
+.loadcontent
+{
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF80;
+    animation: loadinger 0.1s;
+    animation-delay: 2.9s;
+    animation-fill-mode: both;
+}
+.loading
+{
+    border: 5px solid #9356DC;
+    border-top: 5px solid #99E2D0;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    animation: loading 1s ease-in-out;
+    animation-iteration-count: 3;
+}
+@keyframes loading
+{
+    0%
+    { 
+        transform: rotate(0deg); 
+    }
+    100%
+    { 
+        transform: rotate(360deg);
+    }
+}
+@keyframes loadinger
+{
+    100%
+    {
+       opacity: 0;
+       z-index: -1;
+    }
+}
 /*Responsive*/
-
 @media (max-width: 882px){
     
     .listcontainer{
         grid-template-columns: auto;
     }
-
     .listcontainer>div{
         margin-bottom: 1rem;
         position: static;
     }
-
     .maingrid{
         grid-template-columns: auto;
     }
-
 }
