@@ -53,6 +53,16 @@ h3{
     font-weight: 400;
 }
 
+h3:after {
+    content: "";
+    width: 3.80rem;
+    position: absolute;
+    left: 0;
+    height: 3px;
+    background-color: #99E2D0;
+    bottom: -6px;
+}
+
 .descrimenu{
     display: flex;
     justify-content: space-between;
