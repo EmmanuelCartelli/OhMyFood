@@ -87,6 +87,10 @@ header>.logo>h1{
 .listcontainer>div{
     display: flex;
 }
+
+.listcontainer>div:hover{
+    background-color: #f5edff;
+}
 .howtouse{
     background-color: white;
     padding: 2rem;
